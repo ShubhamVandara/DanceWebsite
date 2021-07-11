@@ -1,0 +1,21 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Shubh Dance Academy
+    block scripts
+    block style 
+  body
+    nav#navbar
+      div#logo
+        img(src="static/logo.jpg", alt="dancelogo")
+        div SDA
+        ul 
+        li #[a(href='/') Home]
+        li #[a(href='/') About Us]
+        li #[a(href='/contact') Contact Us]
+        li #[a(href='/') Services]
+    block content
+    block foot
+        #footers
+            | copyright © ShubhamDanceAcademy.com | All Right Reserverd
